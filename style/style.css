@@ -1,5 +1,57 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  /* font-family: "Work Sans", sans-serif; */
+}
+
+/* header styles Start  */
+.header {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background: url("../images/banner/banner1.png");
+}
+.header-part {
+  padding: 150px 130px 0 845px;
+  text-align: right;
+  text-align: justify-all;
+}
+.header-title {
+  width: 700;
+  font-size: 65px;
+  margin-bottom: 24px;
+}
+
+.header-description {
+  width: 400;
+  color: #444343;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.header-button {
+  width: 160px;
+  height: 64px;
+  background-color: #f15b22;
+  color: #ffffff;
+  border: 0;
+}
+/* ------header styles Start------  */
+
+/* main section */
+main {
+  max-width: 1072px;
+  margin: 0 auto;
+}
+
+/* my-failures */
+.my-failures {
+  display: flex;
+  margin-top: 130px;
+}
+.my-failures-img {
+  max-width: 569px;
+  max-height: 723px;
+  /* background-color: #f15b22;
+  border-radius: 75%; */
 }
