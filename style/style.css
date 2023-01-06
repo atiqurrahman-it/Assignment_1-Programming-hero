@@ -87,16 +87,20 @@ main {
   opacity: 45%;
 }
 
-.failures-list ul > li {
+.failures-list ul li {
   list-style: none;
   color: #16d887;
 }
-.failures-list ul li a {
-  color: #444343;
+
+.failures-list ul li > a {
   font-size: 16px;
-  padding-left: 10px;
+  text-decoration: none;
+  color: #657870;
 }
 
+.icon {
+  color: #16d887;
+}
 /* my plans */
 .my-plans-title {
   text-align: center;
