@@ -59,7 +59,7 @@
 
 .header-description {
   width: 400;
-  color: #444343;
+  color: #757575;
   line-height: 26px;
 
   font-size: 16px;
@@ -94,7 +94,7 @@ main {
 
 .sub-my-failures {
   /* padding-top: 330px; */
-  padding: 330px 0px 170px 100px;
+  padding: 330px 0px 170px 0;
 }
 .my-failures-title {
   font-size: 40px;
